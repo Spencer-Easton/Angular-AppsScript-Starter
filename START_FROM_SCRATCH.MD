@@ -103,7 +103,7 @@ Files in the `deploy/public` folder are for firebase hosting.
 
 #### Deploy
 Run `gulp deploy`  
-If firebase-tools and clasp are configured correctly the files will be deployed to firebase hostine and Apps Script.  
+If firebase-tools and clasp are configured correctly the files will be deployed to firebase hosting and Apps Script.  
 If you have firebase errors on deploy: 
 1) Check you authenticated to firebase-tools via `firebase login` or has set the CI token in gulpfile.js.  
 2) Make sure firebase.json lists the correct project as the default project. 
