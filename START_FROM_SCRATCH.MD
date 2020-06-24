@@ -91,7 +91,7 @@ universal to the Add-on. Your selected route component is rendered where `<route
 ### Build and deploy
 ##### Modify the gulpfile.js
 BASE_URL: Is the URL to the firebase host address. Used for static assets. i.e. `https://yourFirebaseProject.web.app`;  
-PROJECT_NAME: is the name you game the client when you used `ng new youProjectName`  
+PROJECT_NAME: is the name you gave the client when you used `ng new youProjectName`  
 LOCAL_TOKEN: `yourCICDToken`  Generate using `firebase login:ci` or if you want to use the user account currently
 logged into firebase tools leave empty;  
 
