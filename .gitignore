@@ -66,3 +66,7 @@ node_modules/
 
 #The build folder for the project
 deploy
+
+#Webstorm files
+.idea
+
