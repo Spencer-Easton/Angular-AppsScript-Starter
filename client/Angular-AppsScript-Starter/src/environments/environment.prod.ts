@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  assetBase: 'https://myFirestoreProject.web.app/assets/'
 };
