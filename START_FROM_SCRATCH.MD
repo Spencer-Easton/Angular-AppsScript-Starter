@@ -16,7 +16,7 @@ You may wish to use the Apps Script project as your clients backend or use other
 Functions or App Engine.  With this method you are not bound to a particular backend for your Add-on. If you wish you
 can use the bare minimum of triggers in the App Script project and develop your backend the same way you would for any
 other Angular application.
-##Setup
+## Setup
 ### Tools needed  
 
 https://github.com/nodejs/node (I recommend using Node Version Manager https://github.com/nvm-sh/nvm)   
