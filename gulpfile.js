@@ -5,7 +5,7 @@ const clean = require('gulp-clean');
 
 
 const BASE_URL = 'https://YOURPROJECTURL.web.app';
-const PROJECT_NAME = 'YOUR-ANGULAR-PROJECT-NAME'
+const PROJECT_NAME = 'Angular-AppsScript-Starter'
 const LOCAL_TOKEN = '';
 
 function defaultTask(cb) {
