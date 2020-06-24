@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Spencer Easton",
-  "license": "MIT",
+  "license": "NONE",
   "devDependencies": {
     "@angular/cli": "^9.1.9",
     "@google/clasp": "^2.3.0",
