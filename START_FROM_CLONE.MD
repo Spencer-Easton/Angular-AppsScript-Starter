@@ -4,7 +4,8 @@
 4) Edit .clasp.json. Add the Apps Script projectId.
 5) Edit .firebaserc. Add the firebase project. 
 6) Edit gulpfile.js. Set BASE_URL to the hosting URL from step 2. 
-7) Make sure you authenticate to clasp and firebase-tools with an account that can access projects from step 1 and 2.
-8) From project root directory run `gulp build`
-9) From project root directory run `gulp deploy`
-10) Run script from step 3 in 'Test as Add-on' in a new spreadsheet.
+7) Edit the environment.ts/environment.prod.ts files in client/Angular-AppsScript-Starter/src/environments to update the assetBase to the hosted URL from step 2.
+8) Make sure you authenticate to clasp and firebase-tools with an account that can access projects from step 1 and 2.
+9) From project root directory run `gulp build`
+10) From project root directory run `gulp deploy`
+11) Run script from step 3 in 'Test as Add-on' in a new spreadsheet.
