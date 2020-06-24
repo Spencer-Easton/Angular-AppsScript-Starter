@@ -79,12 +79,13 @@ example using the bare minimum needed to bootstrap a spreadsheet add-on.
       
      ##### src/app/app.component.html
         Modify your app.component.html make sure to include `<router-outlet></router-outlet>`. Any html in this component is 
-universal to the Add-on. Your selected route component is rendered where <router-outlet> is located.  
-####src/environments/(environment.ts | environment.prod.ts)  
-Add the object  `assetBase` : 'https://yourFirebaseProject.web.app/assets/'.  
-Add all static files such as images to the `src/assets` folder. You can add subfolders as you seem fit 
-such as `src/assets/images` or `src/assets/videos`. In your components that require these static assets 
-import the environment object into the .ts file and refrence it in the html template such as `<img [src]="env.assetBase + 'images/logo.png'"  >` 
+universal to the Add-on. Your selected route component is rendered where `<router-outlet>` tag is located.  
+  
+     ##### src/environments/(environment.ts | environment.prod.ts)  
+      Add the object  `assetBase` : 'https://yourFirebaseProject.web.app/assets/'.  
+    Add all static files such as images to the `src/assets` folder. You can add subfolders as you seem fit 
+    such as `src/assets/images` or `src/assets/videos`. In your components that require these static assets 
+    import the environment object into the .ts file and refrence it in the html template such as `<img [src]="env.assetBase + 'images/logo.png'"  >` 
   
 
 ### Build and deploy
@@ -106,7 +107,7 @@ Run `gulp deploy`
 If firebase-tools and clasp are configured correctly the files will be deployed to firebase hosting and Apps Script.  
 If you have firebase errors on deploy: 
 1) Check you authenticated to firebase-tools via `firebase login` or has set the CI token in gulpfile.js.  
-2) Make sure firebase.json lists the correct project as the default project. 
+2) Make sure .firebaserc lists the correct project as the default project. 
 3) Make sure the account used has access to the firebase project.  
 
 If you have clasp errors on deploy:
