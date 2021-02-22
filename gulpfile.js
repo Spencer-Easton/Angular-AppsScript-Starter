@@ -78,7 +78,7 @@ function deployWebapp(cb) {
 }
 
 function processManifest(cb) {
-    src('./appsscript.json').pipe(dest('deploy/build/'));
+    src('./server/appsscript.json').pipe(dest('deploy/build/'));
     cb();
 }
 
